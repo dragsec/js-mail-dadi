@@ -10,7 +10,7 @@ for (var i = 0; i < emailList.length; i++){
 
     if(emailUser ===  emailEx){
         console.log("L'email inserita è in lista");
-        document.getElementById("mailAccess").innerHTML = emailUser + ", sei in lista!";
+        document.getElementById("emailAlert").innerHTML = emailUser + ", sei in lista!";
         var emailYes = true;
     }
 }
