@@ -1,4 +1,4 @@
-var emailList = [];
+var emailList =  ["haha@gmail.com","ahah@gmail.com","fun@gmail.com","veryfun@gmail.com"];
 console.log("Lista delle email: " + emailList)
 var emailUser = prompt("Insert your email");
 console.log("Nuova email inserita: " + emailUser)
@@ -10,7 +10,7 @@ for (var i = 0; i < emailList.length; i++){
 
     if(emailUser ===  emailEx){
         console.log("L'email inserita è in lista");
-        document.getElementById("mailAccess").innerHTML = emailUSer + ", sei in lista!";
+        document.getElementById("mailAccess").innerHTML = emailUser + ", sei in lista!";
         var emailYes = true;
     }
 }
